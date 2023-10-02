@@ -20,6 +20,7 @@ def pars_web(title, sourse, url, date="today"):
             from datetime import date
 
             today = date.today()
+            
             date = today.strftime("%d.%m.%y")
         text = f"{title} [Электронный ресурс]//{sourse} URL: {url} (дата обращения: {date})"
 
